@@ -1,0 +1,26 @@
+<!--
+  Generated template for the AvancePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Avances</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <button ion-item *ngFor="let item of avances" (click)="goToDetalle(item.id)">
+      {{ item.titulo }}
+    </button>
+  </ion-list>
+
+  <button ion-button color="primary" block (click)="crearAvance()">Crear Avance</button>
+
+</ion-content>

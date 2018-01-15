@@ -1,0 +1,48 @@
+<!--
+  Generated template for the AvanceinfPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Datos Avance</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Titulo</ion-label>
+      <ion-input type="text" [(ngModel)]="avance.titulo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Fecha</ion-label>
+      <ion-input type="text" [(ngModel)]="avance.fecha"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Peso</ion-label>
+      <ion-input type="text" [(ngModel)]="avance.peso"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Cintura</ion-label>
+      <ion-input type="text" [(ngModel)]="avance.cintura"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Biceps</ion-label>
+      <ion-input type="text" [(ngModel)]="avance.biceps"></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <button ion-button color="primary" block (click)="guardarAvance()">Guardar Avance</button>
+  <button *ngIf="id != 0" ion-button color="danger" block (click)="eliminarAvance()">Eliminar Avance</button>
+</ion-content>

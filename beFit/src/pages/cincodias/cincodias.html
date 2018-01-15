@@ -1,0 +1,58 @@
+<!--
+  Generated template for the CincodiasPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Rutina 5 Días</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-list>
+        <ion-list-header color="light" ful>DÍA 1</ion-list-header>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)" icon-start>
+          <ion-icon name="ios-arrow-forward" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+          {{ item.title }}
+        </button>
+      </ion-list>
+    
+      <ion-list>
+        <ion-list-header color="light" ful>DÍA 2</ion-list-header>
+        <button ion-item *ngFor="let item of itemsdos" (click)="itemSelected(item)" icon-start>
+          <ion-icon name="ios-arrow-forward" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+          {{ item.title }}
+        </button>
+      </ion-list>
+    
+      <ion-list>
+        <ion-list-header color="light" ful>DÍA 3</ion-list-header>
+        <button ion-item *ngFor="let item of itemstres" (click)="itemSelected(item)" icon-start>
+          <ion-icon name="ios-arrow-forward" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+          {{ item.title }}
+        </button>
+      </ion-list>
+
+      <ion-list>
+          <ion-list-header color="light" ful>DÍA 4</ion-list-header>
+          <button ion-item *ngFor="let item of itemscuatro" (click)="itemSelected(item)" icon-start>
+            <ion-icon name="ios-arrow-forward" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+            {{ item.title }}
+          </button>
+      </ion-list>
+
+      <ion-list>
+          <ion-list-header color="light" ful>DÍA 5</ion-list-header>
+          <button ion-item *ngFor="let item of itemscinco" (click)="itemSelected(item)" icon-start>
+            <ion-icon name="ios-arrow-forward" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+            {{ item.title }}
+          </button>
+      </ion-list>
+
+</ion-content>
