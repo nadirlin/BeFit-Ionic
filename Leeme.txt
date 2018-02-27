@@ -1,8 +1,0 @@
-INSTALACIÓN
-Para la segunda presentación del proyecto final se logró obtener un apk, 
-el cual se puede instalar el archivo "BeFit-Ionic.apk" que se encuentra en el repositorio,
-se debe ejecutar en el dispositivo movil "Android" para poder hacer uso de la aplicación.
-
-Link del video en YouTube:
-
-https://youtu.be/aCa4jlAVJ-0

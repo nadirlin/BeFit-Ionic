@@ -1,0 +1,51 @@
+<!--
+  Generated template for the CalcnutricionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Nutrición</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/imc.png">
+      </ion-thumbnail>
+      <h2>Cálcular IMC</h2>
+      <button ion-button clear item-end (click)="calcularImc()">Ver</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/protein.png">
+      </ion-thumbnail>
+      <h2>Cálcular Ingesta Proteína</h2>
+      <button ion-button clear item-end (click)="calcularProteina()">Ver</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/water.png">
+      </ion-thumbnail>
+      <h2>Cálcular Ingesta de Agua</h2>
+      <button ion-button clear item-end (click)="calcularAgua()">Ver</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/kcal.png">
+      </ion-thumbnail>
+      <h2>Tabla de Calorías</h2>
+      <button ion-button clear item-end (click)="kcal()">Ver</button>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "beFit",
+  "app_id": "e7025dd2",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
